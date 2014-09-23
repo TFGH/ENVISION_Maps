@@ -1,0 +1,377 @@
+<Composer title="NTD_Endemicity_LF" visible="1">
+ <Composition snapGridTolerance="2" gridVisible="0" printResolution="300" paperWidth="279.4" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="215.9" alignmentSnapTolerance="2" smartGuides="1" printAsRaster="0" generateWorldFile="0">
+  <symbol alpha="1" type="fill" name="">
+   <layer pass="0" class="SimpleFill" locked="0">
+    <prop k="border_width_map_unit_scale" v="0,0"/>
+    <prop k="border_width_unit" v="MM"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="color_border" v="0,0,0,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+    <prop k="style_border" v="no"/>
+    <prop k="width_border" v="0.26"/>
+   </layer>
+  </symbol>
+  <ComposerLegend symbolWidth="7" title="" boxSpace="2" splitLayer="0" equalColumnWidth="0" titleAlignment="1" symbolHeight="4" wmsLegendHeight="25" wrapChar="" fontColor="#000000" columnSpace="2" wmsLegendWidth="50" columnCount="1">
+   <styles>
+    <style marginBottom="2" name="title" font="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" name="group" font="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" name="subgroup" font="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" name="symbol" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" marginLeft="2" name="symbolLabel" font="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
+   </styles>
+   <Model autoUpdate="1">
+    <LayerItem layerId="Admin220140820140746086" userText="" style="subgroup" text="Admin2" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="0">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_map_unit_scale" v="0,0"/>
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="255,255,255,255"/>
+         <prop k="color_border" v="104,104,104,255"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="1">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_map_unit_scale" v="0,0"/>
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="102,153,205,255"/>
+         <prop k="color_border" v="104,104,104,255"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+    <LayerItem layerId="Admin120140820125952914" userText="" style="hidden" text="Admin1" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="Admin1">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_map_unit_scale" v="0,0"/>
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="30,109,143,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="no"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+    <LayerItem layerId="Admin020140820125952652" userText="" style="hidden" text="Admin0" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="Admin0">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_map_unit_scale" v="0,0"/>
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="156,156,156,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+    <LayerItem layerId="hydropolys20140820133348713" userText="" style="group" text="hydropolys" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="Inland intermittent">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_map_unit_scale" v="0,0"/>
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="151,219,242,255"/>
+         <prop k="color_border" v="151,219,242,255"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+        <layer pass="0" class="PointPatternFill" locked="0">
+         <prop k="displacement_x" v="0"/>
+         <prop k="displacement_x_map_unit_scale" v="0,0"/>
+         <prop k="displacement_x_unit" v="MM"/>
+         <prop k="displacement_y" v="1"/>
+         <prop k="displacement_y_map_unit_scale" v="0,0"/>
+         <prop k="displacement_y_unit" v="MM"/>
+         <prop k="distance_x" v="1.5"/>
+         <prop k="distance_x_map_unit_scale" v="0,0"/>
+         <prop k="distance_x_unit" v="MM"/>
+         <prop k="distance_y" v="2"/>
+         <prop k="distance_y_map_unit_scale" v="0,0"/>
+         <prop k="distance_y_unit" v="MM"/>
+         <prop k="outline_width_map_unit_scale" v="0,0"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <symbol alpha="1" type="marker" name="@classificationSymbol@1">
+          <layer pass="0" class="SimpleMarker" locked="0">
+           <prop k="angle" v="0"/>
+           <prop k="color" v="64,101,235,255"/>
+           <prop k="color_border" v="0,0,0,0"/>
+           <prop k="horizontal_anchor_point" v="1"/>
+           <prop k="name" v="circle"/>
+           <prop k="offset" v="0,0"/>
+           <prop k="offset_map_unit_scale" v="0,0"/>
+           <prop k="offset_unit" v="MM"/>
+           <prop k="outline_style" v="solid"/>
+           <prop k="outline_width" v="0"/>
+           <prop k="outline_width_map_unit_scale" v="0,0"/>
+           <prop k="outline_width_unit" v="MM"/>
+           <prop k="scale_method" v="area"/>
+           <prop k="size" v="0.2"/>
+           <prop k="size_map_unit_scale" v="0,0"/>
+           <prop k="size_unit" v="MM"/>
+           <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+         </symbol>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Inland perennial">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_map_unit_scale" v="0,0"/>
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="212,229,255,255"/>
+         <prop k="color_border" v="212,229,255,255"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Ocean">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_map_unit_scale" v="0,0"/>
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="190,210,255,255"/>
+         <prop k="color_border" v="190,210,255,255"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+   </Model>
+   <ComposerItem pagey="79.4073" page="1" id="" lastValidViewScaleFactor="1.99726" positionMode="0" positionLock="false" x="11.76" y="79.4073" zValue="9" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="47.6" outlineWidth="0.3" uuid="{6bb2e769-a305-4ec5-acaa-4febf7cb86c6}" height="62.1" itemRotation="0" frame="false" pagex="11.76">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLegend>
+  <ComposerMap mapRotation="0" keepLayerSet="false" overviewFrameMap="-1" id="1" previewMode="Cache" drawCanvasItems="true">
+   <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewCentered="false" overviewInverted="false">
+    <symbol alpha="0.3" type="fill" name="">
+     <layer pass="0" class="SimpleFill" locked="0">
+      <prop k="border_width_map_unit_scale" v="0,0"/>
+      <prop k="border_width_unit" v="MM"/>
+      <prop k="color" v="255,0,0,255"/>
+      <prop k="color_border" v="0,0,0,255"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="offset" v="0,0"/>
+      <prop k="offset_map_unit_scale" v="0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="style" v="solid"/>
+      <prop k="style_border" v="no"/>
+      <prop k="width_border" v="0.26"/>
+     </layer>
+    </symbol>
+   </overviewFrame>
+   <Extent ymin="-14.36650016280838571" xmin="26.75501379667776547" ymax="1.6252483589807305" xmax="43.06820449980937582"/>
+   <LayerSet/>
+   <Grid gridStyle="0" crossLength="3" gridFramePenThickness="0.5" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+    <framePenColor alpha="255" red="0" blue="0" green="0"/>
+    <frameFillColor1 alpha="255" red="255" blue="255" green="255"/>
+    <frameFillColor2 alpha="255" red="0" blue="0" green="0"/>
+    <symbol alpha="1" type="line" name="">
+     <layer pass="0" class="SimpleLine" locked="0">
+      <prop k="capstyle" v="flat"/>
+      <prop k="color" v="0,0,0,255"/>
+      <prop k="customdash" v="5;2"/>
+      <prop k="customdash_map_unit_scale" v="0,0"/>
+      <prop k="customdash_unit" v="MM"/>
+      <prop k="draw_inside_polygon" v="0"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="offset" v="0"/>
+      <prop k="offset_map_unit_scale" v="0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="penstyle" v="solid"/>
+      <prop k="use_custom_dash" v="0"/>
+      <prop k="width" v="0.3"/>
+      <prop k="width_map_unit_scale" v="0,0"/>
+      <prop k="width_unit" v="MM"/>
+     </layer>
+    </symbol>
+    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0">
+     <fontColor alpha="255" red="0" blue="0" green="0"/>
+    </Annotation>
+   </Grid>
+   <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+   <ComposerItem pagey="9" page="1" id="" lastValidViewScaleFactor="1.99726" positionMode="0" positionLock="false" x="69" y="9" zValue="8" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="203" outlineWidth="0.3" uuid="{14c05b01-4ea6-496b-aacb-a7c009521499}" height="199" itemRotation="0" frame="false" pagex="69">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerMap>
+  <ComposerPicture useExpression="false" resizeMode="0" pictureRotation="0" pictureWidth="38.2409" sourceExpression="" file="../../ENVISION/triple logo_no tagline.png" pictureHeight="18.1482" mapId="-1" anchorPoint="0">
+   <ComposerItem pagey="182.49" page="1" id="" lastValidViewScaleFactor="1.98367" positionMode="0" positionLock="false" x="14.7285" y="182.49" zValue="7" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="41.663" outlineWidth="0.3" uuid="{b0c57500-2d2f-4d9f-bf5e-ec32286831e3}" height="18.1482" itemRotation="0" frame="false" pagex="14.7285">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerLabel valign="32" labelText="Maps prepared by RTI International with funding from&#xa;the U.S. Agency for International Development under&#xa;Cooperative Agreement no. AID-0AA-A-11-00048.&#xa;&#xa;Disclaimer: Data may have not yet been approved by at&#xa;least one level in the USAID NTD data review process." htmlState="0" halign="1" margin="1">
+   <LabelFont description="Calibri,5,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="161.065" page="1" id="" lastValidViewScaleFactor="1.98367" positionMode="0" positionLock="false" x="13.3001" y="161.065" zValue="6" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="44.5198" outlineWidth="0.3" uuid="{06b21621-32f4-4bba-80b1-264314a628aa}" height="21.4249" itemRotation="0" frame="false" pagex="13.3001">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Data Source: USAID's NTD Database" htmlState="0" halign="1" margin="1">
+   <LabelFont description="Calibri,10,-1,5,75,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="154.764" page="1" id="" lastValidViewScaleFactor="1.98367" positionMode="0" positionLock="false" x="6.39587" y="154.764" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="58.3283" outlineWidth="0.3" uuid="{e9aa34b0-1ac4-4387-891c-b55280262cc7}" height="12.6029" itemRotation="0" frame="false" pagex="6.39587">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="District endemicity&#xa;lymphatic filariasis" htmlState="0" halign="4" margin="1">
+   <LabelFont description="Calibri,14,-1,5,75,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="64.335" page="1" id="" lastValidViewScaleFactor="1.99726" positionMode="0" positionLock="false" x="11.1633" y="64.335" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="48.7934" outlineWidth="0.3" uuid="{a13aefd9-33f0-4ccc-a5aa-abbcaf4e703c}" height="30.1447" itemRotation="0" frame="false" pagex="11.1633">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Country" htmlState="0" halign="4" margin="1">
+   <LabelFont description="Calibri,36,-1,5,75,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="41.8416" page="1" id="" lastValidViewScaleFactor="1.99726" positionMode="0" positionLock="false" x="6.39587" y="41.8416" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="58.3283" outlineWidth="0.3" uuid="{0a8772a8-87bc-4b80-a2e1-4107395a4bd8}" height="30" itemRotation="0" frame="false" pagex="6.39587">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0"/>
+     <prop k="border_width_unit" v="MM"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.3"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="5.08" page="1" id="" lastValidViewScaleFactor="1.98367" positionMode="0" positionLock="false" x="5.08" y="5.08" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="60.96" outlineWidth="0.3" uuid="{22174d8d-b094-4e16-b738-18e0377213b7}" height="205.74" itemRotation="0" frame="false" pagex="5.08">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerMap mapRotation="0" keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
+   <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewCentered="false" overviewInverted="false">
+    <symbol alpha="0.3" type="fill" name="">
+     <layer pass="0" class="SimpleFill" locked="0">
+      <prop k="border_width_map_unit_scale" v="0,0"/>
+      <prop k="border_width_unit" v="MM"/>
+      <prop k="color" v="255,0,0,255"/>
+      <prop k="color_border" v="0,0,0,255"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="offset" v="0,0"/>
+      <prop k="offset_map_unit_scale" v="0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="style" v="solid"/>
+      <prop k="style_border" v="no"/>
+      <prop k="width_border" v="0.26"/>
+     </layer>
+    </symbol>
+   </overviewFrame>
+   <Extent ymin="23.89083119344831374" xmin="79.84774927396978228" ymax="32.33661490167402519" xmax="88.39780191686494959"/>
+   <LayerSet/>
+   <Grid gridStyle="0" crossLength="3" gridFramePenThickness="0.5" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+    <framePenColor alpha="255" red="0" blue="0" green="0"/>
+    <frameFillColor1 alpha="255" red="255" blue="255" green="255"/>
+    <frameFillColor2 alpha="255" red="0" blue="0" green="0"/>
+    <symbol alpha="1" type="line" name="">
+     <layer pass="0" class="SimpleLine" locked="0">
+      <prop k="capstyle" v="flat"/>
+      <prop k="color" v="0,0,0,255"/>
+      <prop k="customdash" v="5;2"/>
+      <prop k="customdash_map_unit_scale" v="0,0"/>
+      <prop k="customdash_unit" v="MM"/>
+      <prop k="draw_inside_polygon" v="0"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="offset" v="0"/>
+      <prop k="offset_map_unit_scale" v="0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="penstyle" v="solid"/>
+      <prop k="use_custom_dash" v="0"/>
+      <prop k="width" v="0.3"/>
+      <prop k="width_map_unit_scale" v="0,0"/>
+      <prop k="width_unit" v="MM"/>
+     </layer>
+    </symbol>
+    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0">
+     <fontColor alpha="255" red="0" blue="0" green="0"/>
+    </Annotation>
+   </Grid>
+   <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+   <ComposerItem pagey="5.08" page="1" id="" lastValidViewScaleFactor="1.99726" positionMode="0" positionLock="false" x="66.04" y="5.08" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="208.28" outlineWidth="0.3" uuid="{5970928a-5c79-4b01-9680-08f2b2ed2306}" height="205.74" itemRotation="0" frame="true" pagex="66.04">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerMap>
+ </Composition>
+</Composer>
